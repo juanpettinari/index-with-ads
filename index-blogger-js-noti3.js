@@ -183,53 +183,7 @@ function displayToc(){
 			a=a+1;
         } while(aux[a]==temp);
         
-        if (contador_O%5 == 0)
-        {
-            // Primera Linea
 
-            var br = document.createElement('br');
-            var hr = document.createElement('');
-            dv.appendChild(br);
-            
-
-            // <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            var script1 = document.createElement('script');
-            script1.setAttribute('async','');
-            script1.setAttribute('src','//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
-
-            dv.appendChild(script1);
-
-            dv.appendChild(br);
-
-            //Segunda Linea
-            // <ins class="adsbygoogle" data-ad-client="ca-pub-1367680516878550" data-ad-format="auto" data-ad-slot="3827065496" data-full-width-responsive="true" style="display: block;"></ins>
-
-            var lineados = document.createElement('ins');
-
-            lineados.setAttribute('class','adsbygoogle');
-            lineados.setAttribute('data-ad-client','ca-pub-1367680516878550');
-            lineados.setAttribute('data-ad-format','auto');
-            lineados.setAttribute('data-ad-slot','3827065496');
-            lineados.setAttribute('data-full-width-responsive','true');
-            
-            lineados.setAttribute('class','adsbygoogle');
-            lineados.setAttribute('class','adsbygoogle');
-            lineados.setAttribute('style','display: block;');
-
-
-            dv.appendChild(lineados);
-
-            //Tercera Linea
-            var script2 = document.createElement('script');
-
-            script2.innerHTML = '(adsbygoogle = window.adsbygoogle || []).push({});';
-
-            dv.appendChild(script2);
-
-            dv.appendChild(br);
-
-            dv.appendChild(hr);
-        }
         
 		b=a;
 		sortPosts2(firsti,a);
