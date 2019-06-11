@@ -200,9 +200,9 @@ function displayToc(){
             dv.appendChild(br);
 
             //Segunda Linea
-            // <ins class="adsbygoogle" data-ad-client="ca-pub-3071811799524716" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-slot="3378347124" style="display: block;"></ins>
+            // <ins class="adsbygoogle" data-ad-client="ca-pub-1367680516878550" data-ad-format="auto" data-ad-slot="3827065496" data-full-width-responsive="true" style="display: block;"></ins>
 
-            lineados.innerHTML = '<ins class="adsbygoogle" data-ad-client="ca-pub-3071811799524716" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-slot="3378347124" style="display: block;"></ins>';
+            lineados.innerHTML = '<ins class="adsbygoogle" data-ad-client="ca-pub-1367680516878550" data-ad-format="auto" data-ad-slot="3827065496" data-full-width-responsive="true" style="display: block;"></ins>';
 
             dv.innerHTML = dv.innerHTML + lineados.innerHTML;
 
