@@ -127,7 +127,7 @@ function sortlabel(){
 	}
 }
 function displayToc(){
-	var a=0,b=0,tab='',temp,aux,firsti,dv=document.getElementById('all-post');
+	var a=0,b=0,contador_O=0,tab='',temp,aux,firsti,dv=document.getElementById('all-post');
 	var p, h, o, i, s, n;
 	
 	if(conf.newtab){
@@ -148,7 +148,8 @@ function displayToc(){
 			dv.appendChild(p);
 			document.getElementById('id-paragraph'+a).appendChild(h);
 		}
-		o = document.createElement('ol');
+        o = document.createElement('ol');
+        var contador_O = contador_O + 1;
 		dv.appendChild(o);
 		
 		aux=(conf.sortBy == 'orderlabel')?postLabels:postTitle;
@@ -180,8 +181,9 @@ function displayToc(){
 				}
 			}
 			a=a+1;
-		} while(aux[a]==temp);
-                if (x%5 == 0)
+        } while(aux[a]==temp);
+        
+        if (contador_O%5 == 0)
         {
             // Primera Linea
 
